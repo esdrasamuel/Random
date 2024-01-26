@@ -1,0 +1,81 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background-image: url("./assets/cartoon_style_dice.jpg"); /* Substitua pelo caminho da sua imagem */
+  background-size: contain;
+  background-position: center;
+  margin-top: 100px;
+  background-repeat: no-repeat;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column; /* Alteração para colocar os elementos em uma coluna */
+    align-items: center;
+    width: 100%;
+    max-width: 800px; /* Ajuste conforme necessário */
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.8); /* Adiciona um fundo branco com transparência */
+  }
+
+  
+  h1 {
+    margin-bottom: 10px; /* Adiciona um espaço entre o título/parágrafo e os inputs */
+    font-size: 60px;
+    color: #1D253F;
+    font-weight: 900;
+  }
+  p {
+    margin-bottom: 20px; /* Adiciona um espaço entre o título/parágrafo e os inputs */
+    font-size: 24px;
+    color: #1D253F;
+    font-weight: 400;
+    font-style: italic;
+    text-transform: uppercase;
+  }
+
+  .input-group {
+    display: flex;
+    flex-direction: column; /* Alteração para colocar os inputs em uma coluna */
+    align-items: center;
+    margin-bottom: 100px;
+  }
+
+  .input-group input, .input-group button {
+    margin-bottom: 10px; /* Adiciona um espaço entre os inputs e o botão */
+  }
+
+  .input-group input {
+    width: 100%; /* Faz com que os inputs ocupem toda a largura disponível */
+    height: 50px;
+    color: #1D253F;
+    font-size: 24px; /* Tamanho da fonte desejado */
+    padding: 8px;
+  }
+
+  .input-group button {
+    align-self: flex-start; /* Alinha o botão à esquerda */
+    width: 100%;
+    height: 60px;
+    background-color: #3c6aff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 24px;
+    border-radius: 20px;
+    
+    }
+    .input-group button:hover {
+      background-color: red;
+    }
+  
+  .input-value {
+    width: 100%; /* Faz com que os inputs ocupem toda a largura disponível */
+    height: 50px;
+    text-align: center;
+    color: #1D253F;
+  }

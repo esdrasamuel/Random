@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <title>Sorteador</title>
+</head>
+<body>
+  <div class="container">
+    <div class="content">
+      <div class="input-group">
+        <h1 class="titulo">Sua Sorte</h1>
+        <p class="paragrafo">Sortear um Número</p>
+        <input type="number" class="input-text" id="minInput" placeholder="Número Mínimo">
+        <input type="number" class="input-number" id="maxInput" placeholder="Número Máximo">
+        <button onclick="sortearNumero()">Sortear</button>
+        <input type="text" class="input-value" id="resultadoInput" placeholder="Resultado" readonly>
+      </div>
+    </div>
+  </div>
+  <script src="./scripts.js"></script>
+</body>
+</html>
